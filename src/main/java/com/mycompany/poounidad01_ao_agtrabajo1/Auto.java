@@ -8,10 +8,15 @@ package com.mycompany.poounidad01_ao_agtrabajo1;
  *
  * @author ochoa
  */
-public class Jugadores {
+public class Auto {
     
-    public String Nombre;
-    public String Equipo;
-    public int Edad;
-    public String Nacionalidad;
+    public String Marca;
+    public int Año;
+    public String Modelo;
+    public String Color;
+
+    public Auto() {
+    }
+    
+    
 }

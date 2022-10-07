@@ -18,7 +18,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("1. Datos del primer Auto");
         
-        var auto = new Autos();
+        var auto = new Auto();
         
         auto.Modelo = "Yaris";
         auto.Marca = "Toyota";
@@ -30,7 +30,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("2. Datos del segundo Auto");
         
-        var auto1 = new Autos();
+        var auto1 = new Auto();
         
         auto1.Modelo = "X-TraiL";
         auto1.Marca = "Nisan";
@@ -42,7 +42,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("3. Datos del tercer Auto");
         
-         var auto2 = new Autos();
+         var auto2 = new Auto();
         
         auto2.Modelo = "Recon";
         auto2.Marca = "JEEP";
@@ -56,7 +56,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         System.out.println("---------- CLASE PERROS ----------");
         
         System.out.println("1. El perro nuestro");
-        var perro = new Perros();
+        var perro = new Perro();
         
         perro.Nombre = "Elsa";
         perro.edad = 3;
@@ -68,7 +68,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("2. El perro de mi Tia");
     
-        var perro1 = new Perros();
+        var perro1 = new Perro();
         
         perro1.Nombre = "Roco";
         perro1.edad = 5;
@@ -79,7 +79,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
     
         System.out.println("3. El perro de mi Abuela");
     
-        var perro2 = new Perros();
+        var perro2 = new Perro();
         
         perro2.Nombre = "Pelusa";
         perro2.edad = 9;
@@ -94,7 +94,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("1. Primera Computadora");
         
-        var compu = new Computadoras();
+        var compu = new Computadora();
         
         compu.Marcas = "HP";
         compu.Capacidad = "160 GB";
@@ -106,7 +106,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("2. Segunda Computadora");
         
-        var compu1 = new Computadoras();
+        var compu1 = new Computadora();
         
         compu1.Marcas = "Macbook air";
         compu1.Capacidad = "80 GB";
@@ -117,7 +117,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
     
         System.out.println("3. Tercera Computadora");
         
-        var compu2 = new Computadoras();
+        var compu2 = new Computadora();
         
         compu2.Marcas = "LG";
         compu2.Capacidad = "100 GB";
@@ -132,7 +132,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("1. Datos de identidad");
         
-        var persona = new Personas();
+        var persona = new Persona();
         
         persona.Name = "Andres";
         persona.Edad = 20;
@@ -143,7 +143,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("2. Datos de identidad");
         
-        var persona1 = new Personas();
+        var persona1 = new Persona();
         
         persona1.Name = "Xavier";
         persona1.Edad = 38;
@@ -154,7 +154,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("3. Datos de identidad");
         
-        var persona2 = new Personas();
+        var persona2 = new Persona();
         
         persona2.Name = "Danielle";
         persona2.Edad = 25;
@@ -168,7 +168,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("1. Datos del primer Jugador");
     
-        var jugador = new Jugadores();
+        var jugador = new Jugador();
         
         jugador.Nombre = "Lionel Messi";
         jugador.Nacionalidad = "Argentina";
@@ -179,7 +179,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
          System.out.println("2. Datos del segundo Jugador");
     
-        var jugador1 = new Jugadores();
+        var jugador1 = new Jugador();
         
         jugador1.Nombre = "Ering Haaland";
         jugador1.Nacionalidad = "Noruega";
@@ -190,7 +190,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
          System.out.println("3. Datos del tercer Jugador");
     
-        var jugador2 = new Jugadores();
+        var jugador2 = new Jugador();
         
         jugador2.Nombre = "Darwin Nuñes";
         jugador2.Nacionalidad = "Uruguay";
@@ -205,7 +205,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("1. Primer Libro");
         
-        var libro = new Bibliotecas();
+        var libro = new Bibliotecaria();
         
         libro.nombL = "El señor de los anillos";
         libro.año = 1954;
@@ -216,7 +216,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("2.Segundo Libro");
         
-        var libro1 = new Bibliotecas();
+        var libro1 = new Bibliotecaria();
         
         libro1.nombL = "Marvel";
         libro1.año = 1966;
@@ -227,7 +227,7 @@ public class POOUnidad01_AO_AGTrabajo1 {
         
         System.out.println("3. Tercer Libro");
         
-        var libro2 = new Bibliotecas();
+        var libro2 = new Bibliotecaria();
         
         libro2.nombL = " Historia Universal";
         libro2.año = 2002;

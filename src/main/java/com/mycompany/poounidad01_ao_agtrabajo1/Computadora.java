@@ -8,14 +8,14 @@ package com.mycompany.poounidad01_ao_agtrabajo1;
  *
  * @author ochoa
  */
-public class Bibliotecas {
+public class Computadora {
     
-    public String nombL;
-    public String autor;
-    public int año;
+    public String Color;
+    public String Marcas;
+    public String Capacidad;
     public String tipo;
 
-    public Bibliotecas() {
+    public Computadora() {
     }
     
     

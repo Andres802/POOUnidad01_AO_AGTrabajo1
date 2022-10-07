@@ -8,14 +8,14 @@ package com.mycompany.poounidad01_ao_agtrabajo1;
  *
  * @author ochoa
  */
-public class Personas {
+public class Perro {
     
-    public String Name;
-    public int Edad;
-    public int cedula;
+    public String Nombre;
+    public int edad;
     public float peso;
+    public String raza;
 
-    public Personas() {
+    public Perro() {
     }
     
 }
